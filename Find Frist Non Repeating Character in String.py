@@ -11,3 +11,5 @@ for ch in freq:
         print(ch)
         found=True 
         break 
+if not found:
+    print("-1")
